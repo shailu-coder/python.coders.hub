@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+text-align: center;
+margin-top: 48px;
+font-family: "Josefin Sans", "Arial", sans-serif;
+background: #2C3A47;
+}
+
+h1, p {
+color: #dcdde1;
+}
+
+p {
+font-size: 22px;
+}
+
+.profile-photo {
+border-radius: 100%;
+width: 120px;
+}
+
+.link-tree {
+list-style: none;
+padding: 0;
+font-size: 20px;
+}
+
+.link-tree > li {
+margin: 12px 0;
+}
+
+.link-tree >li a {
+color: #364652;
+background: #C7DBE6;
+border-radius: 90px;
+padding: 12px;
+text-decoration: none;
+max-width: 360px;
+width: 90%;
+display: block;
+margin: 0 auto;
+} 
+
+.link-tree > li:nth-child(1) a {
+background: #B9D2DF;
+}
+
+.link-tree > li:nth-child(2) a {
+background: #9CC0D3;
+/* background: #B9D2DF; */
+}
+
+.link-tree > li:nth-child(3) a {
+/* background: #659BB8; */
+background: #B9D2DF;
+}
+
+.link-tree > li:nth-child(4) a {
+/* background: #4D88A8; */
+background: #9CC0D3;
+}
+
+.link-tree > li:nth-child(5) a {
+/* background: #4D88A8; */
+background: #B9D2DF;
+}
+
+.link-tree > li:nth-child(6) a {
+/* background: #4D88A8; */
+background: #9CC0D3;
+}
+
+
+.link-tree > li:nth-child(7) a {
+/* background: #4D88A8; */
+background: #B9D2DF;
+}
+
+.link-tree > li a:hover,
+.link-tree > li a:focus {
+color: white;
+background: #2D4F62;
+}
+
+
+
+
+
+
+
+details > summary {
+list-style: none;
+}
+details > summary::marker {
+display: none;
+}
+
+details{
+color: #364652;
+background: #C7DBE6;
+border-radius: 90px;
+padding: 12px;
+text-decoration: none;
+max-width: 360px;
+width: 90%;
+display: block;
+margin: 12 auto;
+}
+
+.link-tree >details>li a {
+color: #364652;
+background: #C7DBE6;
+border-radius: 90px;
+padding: 12px;
+text-decoration: none;
+max-width: 360px;
+width: 80%;
+display: block;
+margin: 4 auto;
+
+} 
+
+
+.link-tree >details:hover,
+.link-tree >details:focus {
+color: white;
+background: #2D4F62;
+cursor: pointer;
+}
+
+
+
+.fun {
+background-color: #FFF;
+}
+
+.fun:hover {
+background-color: #C7DBE6;
+}
